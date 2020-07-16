@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var nar = prompt("enter unit");
+        var hundredunit = 100 * 5.97;
+        alert(hundredunit + nar);
+        function getfix(){
+    var unit  = document.getElementById("units");
+    result.value;
+    var newunits;
+    var reaminunits;
+    var hundredunit = 100 * 5.97;
+    var twohundredunit = 100 * 8.11;
+    var threehundredunit = 100 * 10.20;
+    var fourhundredunit = 400 * 17.60; 
+
+    console.log(hundredunit).value
+
+
+if ((unit > 0)&&(unit <=100)) {
+    newunits = unit * hundredunit;
+    newunits = document.getElementById("Total").value;
+    document.getElementById("hundred").innerHTML = document.getElementById("Total").value;
+    document.getElementById("firsthundred").innerHTML = unit;
+
+}
+else if ((unit > 100)&&(unit <=200)) {
+    newunits = twohundredunit + hundredunit 
+    newunits = document.getElementById("Total").value;
+    
+    document.getElementById("Total").value = document.getElementById("twohundred").innerHTML;
+    document.getElementById("Secondhundred").innerHTML = unit;
+
+
+
+}
+else if ((unit > 200)&&(unit <=300)) {
+    newunits = threehundredunit + twohundredunit + hundredunit;
+    newunits = document.getElementById("Total").value;
+    document.getElementById("Total").value = document.getElementById("threehundred").innerHTML;
+    document.getElementById("Thirdhundred").innerHTML = unit;
+
+
+}
+else if ((unit > 300)&&(unit <=700)) {
+    newunits = fourhundredunit + threehundredunit + twohundredunit + hundredunit;
+    newunits = document.getElementById("Total").value;
+    document.getElementById("Total").value = document.getElementById("fourhundred").innerHTML;
+    document.getElementById("Forthhundred").innerHTML = unit; 
+}
+else  {
+    newunits = (fourhundredunit + threehundredunit + twohundredunit + hundredunit)*20.70
+    newunits = document.getElementById("Total").value;
+    document.getElementById("Total").value = document.getElementById("abovefourhundred").innerHTML;
+
+    document.getElementById("FifthHundred").innerHTML=unit;
+}
+document.getElementById("Total Amount").innerHTML = document.getElementById
+("Total").value
+
+}
+        </script>
+</body>
+</html>

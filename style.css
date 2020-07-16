@@ -1,0 +1,59 @@
+* {
+    text-decoration: none
+    ;
+}
+body {
+    margin: 0pt auto;
+    background-color: rgba(250, 230, 230, 0.082);
+    padding-top: 10px;
+    background-image: url(./presidentinitiativebgpng.6c0d529d.png);
+    
+    
+}
+table {
+    text-align: center ;
+    
+}
+.fix {
+    margin: 0px auto;
+    padding-top: 20px;
+}
+.fix td {
+    border: 2px solid;
+    padding: 20px;
+    background-color: greenyellow;
+
+}
+button {
+    color: #333333;
+    border: 2px solid#b2b2  ;
+    border-top: 2px solid #b2b2b2;
+    background-color: burlywood;
+    padding: 8px 2px 8px 2px;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+button:hover {
+    color: rgb(0, 255, 128);
+    border: 1px solid gold;
+    border-top: 2px solid #b2b2b2;
+    background-color: darkcyan;
+}
+
+
+.coast {
+    margin-left: 14px;
+}
+input {
+
+    background-color: green;
+    color: lawngreen;
+    padding: 8px 4px 8px 4px;
+}
+.leve {
+    color: orange;
+    text-align: center;
+    font-size: 35px;
+}
+
+  
